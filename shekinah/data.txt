@@ -1,0 +1,37 @@
+Data Structures
+--> storing 
+
+all info of auction --> array for whole of auction = []
+# of buyers for certain item, their number--> buyers = [], array storing  
+
+DON'T FORGET to print out ("Hello There! Welcome! This is the Auction Company.")
+
+in auction AT LEAST 10 items with their: -> all in an array
+
+  item_num = int
+  description = (" ")
+  reserve_price = int
+  buyer_id_num = int
+  sold = string ('') n/y
+  highest_bid = int
+  num_bids = int
+  
+how:
+item1list = [1,"canvas lawn chairs",60,0,0,"n",]
+print item1list[1]
+
+num_bid = 0 (starts at zero)  
+id_num = int() --> buyer number, specifies which buyer
+current_high_bid = is an int    
+
+make all variables shorter names
+
+item_num of which item buyer wants to bid on
+Ask buyer for id number store then store bid put into the current_highest_bid 
+
+print out:
+total_fee
+sold_items
+items reaching reserve_price
+
+print out company_fee (10%)
