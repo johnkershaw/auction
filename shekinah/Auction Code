@@ -1,0 +1,43 @@
+#https://www.w3schools.com/python/python_dictionaries.asp
+#https://www.geeksforgeeks.org/python-dictionary/
+
+print ("Hello There! Welcome! This is the Auction Company.")
+
+buyers = []
+
+import id_num
+for i in range(10):
+  idnum = id_num.randint(1, 1000)
+
+print ("This is your buyer id number: " + id_num )
+
+print ("Here are the items for auction:")
+
+#can do list --> dictionary is easier -> look up how
+items = {
+  1:{"item_num":1, "descript": "canvas lawn chairs", "res_prix" : "$"60, "bid_no": 0}
+  2:{"item_num":2, "descript": "body weight scale", "res_prix" : "$"25, "bd_no": 0}
+  3:{"item_num":3, "descript": "colourful metal utensils", "res_prix" : "$"20, "bd_no": 0}
+  4:{"item_num":4, "descript": "purple light bulb", "res_prix" : "$"10, "bd_no": 0}
+  5:{"item_num":5, "descript": "White wooden rocking chair ", "res_prix" : "$"110, "bd_no": 0}
+  6:{"item_num":6, "descript": "Long dressing mirror", "res_prix" : "$"100, "bd_no": 0}
+  7:{"item_num":7, "descript": "Five thin paint brushes", "res_prix" : "$"8, "bd_no": 0}
+  8:{"item_num":8, "descript": "Game BINGO - family pack", "res_prix" : "$"20, "bd_no": 0}
+  9:{"item_num":9, "descript": "HP colour printer - L360", "res_prix" : "$"130, "bd_no": 0}
+  10:{"item_num":10, "descript": "red two person bicycle", "res_prix" : "$"400, "bd_no": 0}
+}
+
+#item1list = [1,"canvas lawn chairs",60,0,0,"n",]
+#print (item1list)
+#item2list = [1,"canvas lawn chairs",60,0,0,"n",]
+#print (item2list)
+#item2list = [1,"canvas lawn chairs",60,0,0,"n",]
+#print (item2list)
+
+print raw_input("Enter id number:")
+
+num_bid = 0 
+x = thisdict.get("item_num")
+print ("Items with no bid:") + x
+
+ 
