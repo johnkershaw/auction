@@ -4,26 +4,26 @@ This is your buyer id number: 2385
 
 Here are the items for auction:
 
-Item Number                   Description                 Reserve Price         No. of Bids
-1                       canvas lawn chairs                   $60                      0
+Item Number                   Description                 Reserve Price         No. of Bids   Highest Bid
+1                       canvas lawn chairs                   $60                      0             0
 
-2                       body weight scale                    $25                      0
+2                       body weight scale                    $25                      0             0
                                                          
-3                       colourful metal utensils             $20                      0
+3                       colourful metal utensils             $20                      0             0
 
-4                       purple light bulb                    $10                      0
+4                       purple light bulb                    $10                      0             0
 
-5                       White wooden rocking chair           $110                     0
+5                       White wooden rocking chair           $110                     0             0
 
-6                       Long dressing mirror                 $100                     0
+6                       Long dressing mirror                 $100                     0             0
 
-7                       five thin paint brushes              $8                       0
+7                       five thin paint brushes              $8                       0             0
 
-8                       game BINGO - family pack             $20                      0
+8                       game BINGO - family pack             $20                      0             0
 
-9                       HP colour printer -L360              $130                     0
+9                       HP colour printer -L360              $130                     0             0
 
-10                      red two person bicycle               $400                     0
+10                      red two person bicycle               $400                     0             0
 
 
 Enter an item to bid: 10
@@ -32,8 +32,8 @@ Current Highest bid: 0
 
 Enter id number: 2385
 
+Current highest bid:0
 Enter your bid ($) (must be higher than previous highest bid): 400
-Current Highest bid: 400
 
 Number of bids for item 10: 1
 
